@@ -1,0 +1,25 @@
+.slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.slider-chip {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.slider-button.prev {
+    position: absolute;
+    left: 0;
+}
+
+.slider-button.next {
+    position: absolute;
+    right: 0;
+}
